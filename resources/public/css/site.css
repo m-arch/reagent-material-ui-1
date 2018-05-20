@@ -1,0 +1,86 @@
+.body-container{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.appBarShift-left {
+    margin-right: -213px;
+}
+
+.appBarShift-right {
+    margin-left: -213px;
+}
+
+.content-left{
+    margin-left: 240px;
+}
+
+.content-right{
+    margin-right: 240px;
+}
+
+.contentShift-left{
+    margin-left: 0px;
+}
+
+.contentShift-right{
+    margin-right: 0px;
+}
+
+.content-shift{
+    transition: width 1s;
+}
+
+.content{
+    flex-grow: 1;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 70px;
+}
+
+.drawer{
+    width: 240px;
+}
+
+.list-section{
+    font-weight: bold;
+}
+
+pre{
+    font-family: monospace;
+    background-color: #f6f8fa;
+    padding: 20px;
+    padding-top: 10px;
+    overflow: auto
+}
+
+.right{
+    float: right;
+}
+
+.example{
+    background-color: #eeeeee;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.list-item{
+    text-decoration: none;
+}
+
+.text-field{
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    width: 200px;
+}
+
+.multi-text-field{
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    width: 648px;
+}
+
+.container {
+    min-height: 100px;
+    padding-left: 20px;
+    padding-top: 12px;
+    background-color: white;
+}
