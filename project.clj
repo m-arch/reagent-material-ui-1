@@ -1,6 +1,6 @@
 (defproject reagent-material-ui-1 "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Examples with customized components for using material-ui-1 with reagent"
+  :url "https://github.com/m-arch/reagent-material-ui-1"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
