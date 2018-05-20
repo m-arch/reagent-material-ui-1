@@ -1,7 +1,8 @@
 (ns reagent-material-ui-1.examples.app-bar
   (:require [reagent.core :as r]
-            [reagent-material-ui-1.utils :as ui]
+            [re-material-ui-1.core :as ui]
             [reagent-material-ui-1.examples.common :as common]))
+
 
 (defn app-bar-example3 []
   (let [state (r/atom {:login true})]

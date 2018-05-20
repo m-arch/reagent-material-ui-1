@@ -9,7 +9,7 @@
               [reagent-material-ui-1.examples.tab :refer [tab]]
               [reagent-material-ui-1.examples.table :refer [table]]
               [reagent-material-ui-1.examples.text-field :refer [text-field]]
-              [reagent-material-ui-1.utils :as ui]))
+              [re-material-ui-1.core :as ui]))
 
 
 

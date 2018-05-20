@@ -19,14 +19,15 @@
                   :scope "provided"]
                  [secretary "1.2.3"]
                  [venantius/accountant "0.2.4"
-                  :exclusions [org.clojure/tools.reader]]]
+                  :exclusions [org.clojure/tools.reader]]
+                 [re-material-ui-1 "0.1.0-SNAPSHOT"]]
 
   :plugins [[lein-environ "1.1.0"]
             [lein-cljsbuild "1.1.7"]
             [lein-asset-minifier "0.2.7"
              :exclusions [org.clojure/clojure]]]
 
-  :ring {:handler reagent-material-ui-1.handler/app
+  :ring {:handler reagent-material-ui-1.handlwqer/app
          :uberwar-name "reagent-material-ui-1.war"}
 
   :min-lein-version "2.5.0"

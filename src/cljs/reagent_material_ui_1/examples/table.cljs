@@ -1,7 +1,7 @@
 (ns reagent-material-ui-1.examples.table
   (:require [reagent.core :as r]
-            [reagent-material-ui-1.utils :as ui]
-            [reagent-material-ui-1.custom :as custom-ui]
+            [re-material-ui-1.core :as ui]
+            [re-material-ui-1.custom :as custom-ui]
             [reagent-material-ui-1.examples.common :as common]))
 
 (defn table-example [] 

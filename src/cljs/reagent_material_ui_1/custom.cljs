@@ -1,7 +1,6 @@
 (ns reagent-material-ui-1.custom
   (:require [reagent.core :as r]
-            [reagent-material-ui-1.utils :as ui]
-            [reagent-material-ui-1.examples.common :as common]))
+            [re-material-ui-1.core :as ui]))
 
 (defn datatable [column-data data &{:keys [no-paging? rows-per-page identifier
                                            head-style cell-style title]

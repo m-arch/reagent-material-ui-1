@@ -1,6 +1,6 @@
 (ns reagent-material-ui-1.main
   (:require [reagent.core :as r]
-            [reagent-material-ui-1.utils :as ui]
+            [re-material-ui-1.core :as ui]
             [reagent-material-ui-1.examples.common :as common]))
 
 

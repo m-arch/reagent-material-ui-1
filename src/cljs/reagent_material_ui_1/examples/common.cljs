@@ -1,6 +1,6 @@
 (ns reagent-material-ui-1.examples.common
   (:require [reagent.core :as r]
-            [reagent-material-ui-1.utils :as ui]))
+            [re-material-ui-1.core :as ui]))
 
 (defn code-button [state key]
   [ui/avatar {:class-name "right"}
