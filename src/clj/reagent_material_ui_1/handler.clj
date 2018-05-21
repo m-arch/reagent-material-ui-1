@@ -7,10 +7,8 @@
 
 (def mount-target
   [:div#app
-      [:h3 "ClojureScript has not been compiled!"]
-      [:p "please run "
-       [:b "lein figwheel"]
-       " in order to start the compiler"]])
+      [:h3 "Loading content!"]
+      [:p "please be patient "]])
 
 (defn head []
   [:head
@@ -33,6 +31,8 @@
   (GET "/about" [] (loading-page))
   (GET "/examples/app-bar" [] (loading-page))
   (GET "/examples/avatar" [] (loading-page))
+  (GET "/examples/drag-drop" [] (loading-page))
+  (GET "/examples/pickers" [] (loading-page))
   (GET "/examples/tab" [] (loading-page))
   (GET "/examples/table" [] (loading-page))
   (GET "/examples/text-field" [] (loading-page))
