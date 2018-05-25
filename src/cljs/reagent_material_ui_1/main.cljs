@@ -42,6 +42,8 @@
                            :disable-padding true}
         [common/drawer-component "app-bar"]
         [common/drawer-component "avatar"]
+        [common/drawer-component "drag-drop"]
+        [common/drawer-component "pickers"]
         [common/drawer-component "tab"]
         [common/drawer-component "table"]
         [common/drawer-component "text-field"]]]]]])

@@ -6,6 +6,8 @@
                                                   about-page]]
               [reagent-material-ui-1.examples.app-bar :refer [app-bar]]
               [reagent-material-ui-1.examples.avatar :refer [avatar]]
+              [reagent-material-ui-1.examples.drag-drop :refer [drag-drop]]
+              [reagent-material-ui-1.examples.pickers :refer [pickers]]
               [reagent-material-ui-1.examples.tab :refer [tab]]
               [reagent-material-ui-1.examples.table :refer [table]]
               [reagent-material-ui-1.examples.text-field :refer [text-field]]
@@ -40,6 +42,10 @@
   (reset! page #'app-bar))
 (secretary/defroute "/examples/avatar" []
   (reset! page #'avatar))
+(secretary/defroute "/examples/drag-drop" []
+  (reset! page #'drag-drop))
+(secretary/defroute "/examples/pickers" []
+  (reset! page #'pickers))
 (secretary/defroute "/examples/tab" []
   (reset! page #'tab))
 (secretary/defroute "/examples/table" []

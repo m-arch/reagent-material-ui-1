@@ -84,3 +84,23 @@ pre{
     padding-top: 12px;
     background-color: white;
 }
+
+.blue-box {
+    background-color: #3f51b5;
+}
+
+.blue-box img{
+    opacity: 0;
+}
+
+.hidden-box{
+    display: none;
+}
+
+.hover-box{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.hover-box div{
+    opacity: 0;
+}

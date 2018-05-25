@@ -31,7 +31,7 @@
                             [ui/visibility-off-icon]
                             [ui/visibility-icon])]]
        [custom-ui/input-field :error input :label "Error" :style style :error-text "Something wrong"
-        :default-value "Wrong input"]
+        :default-value "Wrong input" :shrink]
        [custom-ui/input-field :search input :label "Search" :style style :type "search"]
        [custom-ui/input-field :age input :label "Age" :style style :type "number" :end-adornment "years"]
        [custom-ui/select :select input options :style style :label "Currency"
