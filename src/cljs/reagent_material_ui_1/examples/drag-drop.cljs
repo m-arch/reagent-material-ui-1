@@ -131,9 +131,7 @@
                                  :on-drag-over #(do
                                                   (.preventDefault %)
                                                   (when (empty? (:content board))
-                                                    (reset! boards (drag-fn {:board board :position 0})))
-                                                  )
-                                 :on-drop #(print "hi")} 
+                                                    (reset! boards (drag-fn {:board board :position 0}))))} 
                            [ui/app-bar {:position "static" :color "primary"}
                             [ui/toolbar
                              [ui/typography {:variant "title" :color "inherit"}
@@ -315,8 +313,7 @@
                                                   (.preventDefault %)
                                                   (when (empty? (:content board))
                                                     (reset! boards (drag-fn {:board board :position 0})))
-                                                  )
-                                 :on-drop #(print \"hi\")} 
+                                                  )} 
                            [ui/app-bar {:position \"static\" :color \"primary\"}
                             [ui/toolbar
                              [ui/typography {:variant \"title\" :color \"inherit\"}
